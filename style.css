@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    color: rgb(99, 23, 154);
+}
+
+::selection {
+    background: rgb(46, 207, 81);
+    color:rgb(99, 23, 154);
+    text-shadow: #000 0 0 3px;
+  }
+
+h1 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 235%;
+    color: rgb(99, 23, 154);
+    text-shadow: 1px 1px rgb(152, 20, 20);
+}
+
+#desc {
+    font-family: "Tomorrow", sans-serif;
+    color: rgb(99, 23, 154);
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#desc th {
+    font-size: 135%;
+    text-shadow: 1px 1px rgb(152, 20, 20); 
+}
+
+#desc td {
+    color: rgb(152, 20, 20); 
+    text-shadow: 1px 1px rgb(99, 23, 154);
+    font-size: 110%;
+}
+
+#desc td, th {
+    padding: 15px;
+    border: 1px solid #333;
+    background-color: #111;
+}
+
+h3 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 175%;
+    color: rgb(99, 23, 154);
+    text-shadow: 1px 1px rgb(152, 20, 20);
+}
+
+#sem1 {
+    margin-left: 10%;
+    float: left;
+}
+
+.semtab {
+    font-family: "Tomorrow", sans-serif;
+    color: rgb(99, 23, 154);
+    border-collapse: collapse;
+    width: 700px;
+}
+
+.semtab td, th {
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #111;
+    line-height: 210%;
+}
+
+.semtab th {
+    font-size: 115%;
+    text-shadow: 1px 1px rgb(152, 20, 20); 
+}
+
+.semtab a:link, a:visited {
+    text-decoration: underline;
+    text-decoration-color: rgb(152, 20, 20);
+    color: rgb(152, 20, 20); 
+    text-shadow: 1px 1px rgb(99, 23, 154);
+}
+
+#sem2 {
+    margin-right: 10%;
+    float: right;
+}
+
+#incomplete {
+    color: #444;
+}
+
+#incomplete th {
+    text-shadow: none;
+}
